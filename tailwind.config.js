@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       backgroundImage:{
-        'hero':"url('cub.webp')"
+        'hero':"url('public/cub.webp')"
       }
     },
   },
