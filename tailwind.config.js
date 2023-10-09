@@ -1,11 +1,15 @@
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
-    "./index.html",
+    "./index.html","./main.js",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage:{
+        'hero':"url('cub.webp')"
+      }
+    },
   },
   plugins: [],
 }
